@@ -1,0 +1,41 @@
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+body{
+    background-color: aliceblue;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    font-weight: 100;
+    font-style: oblique;
+}
+
+#camera{
+    width: 360px;
+    height: 250px;
+    border: 1px solid red;
+}
+
+img:hover{
+    border-radius: 60px;
+    transform: scale(3);
+}
+img{
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+
+.column{
+    float: left;
+    width: 30%;
+}
